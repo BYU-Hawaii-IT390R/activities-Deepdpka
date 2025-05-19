@@ -1,0 +1,1558 @@
+6Y3ZdOf68BP6xIMi9JxEc1nVzrKPfX7GbltVeUkrH62Ts1L9kc5Y6g5XMUe9kZy8jTKWCdedlFPZ6FfIFSuGOUA2tjH0QiKc5cEn
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+
+Contents hide
+(Top)
+History
+Variations
+Time to Hello World
+Wikipedia articles containing "Hello, World!" programs
+See also
+References
+External links
+"Hello, World!" program
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+"Hello, World" and "Helloworld" redirect here. For other uses, see Hello World (disambiguation).
+A "Hello, World!" program is usually a simple computer program that emits (or displays) to the screen (often the console) a message similar to "Hello, World!". A small piece of code in most general-purpose programming languages, this program is used to illustrate a language's basic syntax. Such a program is often the first written by a student of a new programming language,[1] but it can also be used as a sanity check to ensure that the computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.
+
+History
+
+"Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)
+While several small test programs have existed since the development of programmable computers, the tradition of using the phrase "Hello, World!" as a test message was influenced by an example program in the 1978 book The C Programming Language,[2] with likely earlier use in BCPL. The example program from the book prints "hello, world", and was inherited from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, Programming in C: A Tutorial:[3]
+
+main( ) {
+        printf("hello, world");
+}
+In the above example, the main( ) function defines where the program should start executing. The function body consists of a single statement, a call to the printf() function, which stands for "print formatted"; it outputs to the console whatever is passed to it as the parameter, in this case the string "hello, world".
+
+The C-language version was preceded by Kernighan's own 1972 A Tutorial Introduction to the Language B,[4] where the first known version of the program is found in an example used to illustrate external variables:
+
+main( ) {
+    extrn a, b, c;
+    putchar(a); putchar(b); putchar(c); putchar('!*n');
+}
+ 
+a 'hell';
+b 'o, w';
+c 'orld';
+The program above prints hello, world! on the terminal, including a newline character. The phrase is divided into multiple variables because in B a character constant is limited to four ASCII characters. The previous example in the tutorial printed hi! on the terminal, and the phrase hello, world! was introduced as a slightly longer greeting that required several character constants for its expression.
+
+The Jargon File reports that "hello, world" instead originated in 1967 with the language BCPL.[5] Outside computing, use of the exact phrase began over a decade prior; it was the catchphrase of New York radio disc jockey William B. Williams beginning in the 1950s.[6]
+
+Variations
+
+A "Hello, World!" program running on Sony's PlayStation Portable as a proof of concept
+"Hello, World!" programs vary in complexity between different languages. In some languages, particularly scripting languages, the "Hello, World!" program can be written as one statement, while in others (more so many low-level languages) many more statements can be required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++[7] requires the import of the input/output (I/O) software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream.
+
+
+Computer numerical control (CNC) machining test in poly(methyl methacrylate) (Perspex).
+The phrase "Hello, World!" has seen various deviations in casing and punctuation, such as "hello world" which lacks the capitalization of the leading H and W, and the presence of the comma or exclamation mark. Some devices limit the format to specific variations, such as all-capitalized versions on systems that support only capital letters, while some esoteric programming languages may have to print a slightly modified string. Other human languages have been used as the output; for example, a tutorial for the Go language emitted both English and Chinese or Japanese characters, demonstrating the language's built-in Unicode support.[8] Another notable example is the Rust language, whose management system automatically inserts a "Hello, World" program when creating new projects.
+
+
+A "Hello, World!" message being displayed through long-exposure light painting with a moving strip of light-emitting diodes (LEDs)
+Some languages change the function of the "Hello, World!" program while maintaining the spirit of demonstrating a simple example. Functional programming languages, such as Lisp, ML, and Haskell, tend to substitute a factorial program for "Hello, World!", as functional programming emphasizes recursive techniques, whereas the original examples emphasize I/O, which violates the spirit of pure functional programming by producing side effects. Languages otherwise able to print "Hello, World!" (assembly language, C, VHDL) may also be used in embedded systems, where text output is either difficult (requiring added components or communication with another computer) or nonexistent. For devices such as microcontrollers, field-programmable gate arrays, and complex programmable logic devices (CPLDs), "Hello, World!" may thus be substituted with a blinking light-emitting diode (LED), which demonstrates timing and interaction between components.[9][10][11][12][13]
+
+The Debian and Ubuntu Linux distributions provide the "Hello, World!" program through their software package manager systems, which can be invoked with the command hello. It serves as a sanity check and a simple example of installing a software package. For developers, it provides an example of creating a .deb package, either traditionally or using debhelper, and the version of hello used, GNU Hello, serves as an example of writing a GNU program.[14]
+
+Variations of the "Hello, World!" program that produce a graphical output (as opposed to text output) have also been shown. Sun demonstrated a "Hello, World!" program in Java based on scalable vector graphics,[15] and the XL programming language features a spinning Earth "Hello, World!" using 3D computer graphics.[16] Mark Guzdial and Elliot Soloway have suggested that the "hello, world" test message may be outdated now that graphics and sound can be manipulated as easily as text.[17]
+
+In computer graphics, rendering a triangle – called "Hello Triangle" – is sometimes used as an introductory example for graphics libraries.[18][19]
+
+Time to Hello World
+"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease of use. Since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable.[20] For instance, the first publicly known "Hello, World!" program in Malbolge (which actually output "HEllO WORld") took two years to be announced, and it was produced not by a human but by a code generator written in Common Lisp (see § Variations, above).
+
+The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.[21][22]
+
+Wikipedia articles containing "Hello, World!" programs
+ABAPAdaAldorALGOLALGOL 60AmbientTalkAmiga EApache ClickApache JellyApache WicketAppJarAppleScriptApplesoft BASICArcAtari Assembler EditorAutoLISPAviSynthAWKBASICBasic Assembly LanguageBallerinaBCPLBeatnikBefungeBETABlitz BASICBrainfuckCCaché ObjectScriptCairoC/ALCarbonCasio BASICCharmCherryPyCleanClipperC++C#COBOLCobraCommon Intermediate LanguageCrystalCythonDartDarwinData General NovaDenoDOORS Extension LanguageEasy Programming LanguageЭль-76ElixirEnyoஎழில்F#FastAPIFjölnirFlaskFlixForthFORTRANFortressFreeBASICGoGodotGoogle GadgetsGNU SmalltalkHackHarbourHaskellHollywoodHTMLHTML ApplicationIBM Open ClassIdrisINTERCALInternet Foundation ClassesIoIRAFJJADEJam.pyJavaJavaFX ScriptJavaScriptJFaceKKERNALKivyK-MeleonLibreLogoLispLiveScriptLOLCODELuaMAC/65MACRO-10MACRO-11MADMagikMalbolgeMATLABMercuryMicroPythonMicrosoft Small BasicmIRC scripting languageMMIXMockitoModula-3MojoMonadMUMPSMXMLNemerleNewspeakNimNWScriptOmniMarkOpaOpenEdge Advanced Business LanguageOpen Programming LanguageOrielParaSailParrot assembly languageParrot intermediate representationPascalPCASTLPDP-8PerlPerl modulePHPPlackPluaPlusPostScriptPowerBASICPrologPureBasicPure DataPureScriptPyGTKPythonQQB64QuickBASICRRackRacketRakuReactReact NativeRebolRedRefalRGtk2RingRobot FrameworkRubyRustSAKOSARLScalaScilabScratchSedSelfShakespeareSimulaSmallBASICSmalltalkStandard MLStandard Widget ToolkitSwiftTeXTI-990TI‑BASICTornadoTurbo PascalTuringUCBLogoUEFIUmpleUnlambdaVValaVisual BasicVisual IRCweb2pyWeb Server Gateway InterfaceWhitespaceWtXBLiteXojoZig
+See also
+icon	Computer programming portal
+"99 Bottles of Beer" as used in computer science
+Bad Apple!! § Use of video as a graphical and audio test (graphic equivalent to "Hello, World!" for old hardware)
+Foobar
+Java Pet Store
+Just another Perl hacker
+Outline of computer science
+TPK algorithm
+Coding
+References
+ Langbridge, James A. (3 December 2013). Professional Embedded ARM Development. John Wiley & Sons. ISBN 9781118887820.
+ Kernighan, Brian W.; Ritchie, Dennis M. (1978). The C Programming Language (1st ed.). Englewood Cliffs, New Jersey: Prentice Hall. ISBN 0-13-110163-3.
+ Kernighan, Brian (1974). "Programming in C: A Tutorial" (PDF). Bell Labs. Archived (PDF) from the original on 22 March 2022. Retrieved 9 January 2019.
+ Johnson, S. C.; Kernighan, B. W. The Programming Language B. Bell Labs. Archived from the original on 11 June 2015. Retrieved 8 August 2024.
+ "BCPL". Jargon File. Archived from the original on 3 April 2018. Retrieved 21 April 2013.
+ "William B. Williams, Radio Personality, Dies". The New York Times. 4 August 1986.
+ "C++ Programming/Examples/Hello world". Wikibooks. Archived from the original on 28 March 2022. Retrieved 16 March 2022.
+ A Tutorial for the Go Programming Language. Archived 26 July 2010 at the Wayback Machine The Go Programming Language. Retrieved 26 July 2011.
+ Silva, Mike (11 September 2013). "Introduction to Microcontrollers - Hello World". EmbeddedRelated.com. Archived from the original on 22 May 2015. Retrieved 19 May 2015.
+ George, Ligo (8 May 2013). "Blinking LED using Atmega32 Microcontroller and Atmel Studio". electroSome. Archived from the original on 5 November 2014. Retrieved 19 May 2015.
+ PT, Ranjeeth. "2. AVR Microcontrollers in Linux HOWTO". The Linux Documentation Project. Archived from the original on 2 May 2015. Retrieved 19 May 2015.
+ Andersson, Sven-Åke (2 April 2012). "3.2 The first Altera FPGA design". Raidió Teilifís Éireann. Archived from the original on 21 May 2015. Retrieved 19 May 2015.
+ Fabio, Adam (6 April 2014). "CPLD Tutorial: Learn programmable logic the easy way". Hackaday. Archived from the original on 20 May 2015. Retrieved 19 May 2015.
+ "Hello". GNU Project. Free Software Foundation. Archived from the original on 29 May 2014. Retrieved 7 July 2017.
+ Jolif, Christophe (January 2003). "Bringing SVG Power to Java Applications". Sun Developer Network.
+ de Dinechin, Christophe (24 July 2010). "Hello world!". Grenouille Bouillie.
+ "Teaching the Nintendo Generation to Program" (PDF). bfoit.org. Archived from the original (PDF) on 5 May 2016. Retrieved 27 December 2015.
+ Vries, Joey de (2020). Learn OpenGL - Graphics Programming. Kendall & Welling. p. 26. ISBN 978-90-90-33256-7.
+ Beuken, Brian (January 2018). "Coding games on the Raspberry Pi in C/C++ Part 01". The MagPi. No. 65. p. 57. next time we will expand our code to start working with graphics and the famous 'hello triangle' code that absolutely no one uses except game coders
+ O'Dwyer, Arthur (September 2017). Mastering the C++17 STL: Make full use of the standard library components in C++17. Packt Publishing Ltd. p. 251. ISBN 978-1-78728-823-2. Retrieved 4 December 2019.
+ Wiegers, Harold (28 June 2018). "The importance of "Time to First Hello, World!" an efficient API program". Archived from the original on 19 February 2020. Retrieved 19 February 2020.
+ Jin, Brenda; Sahni, Saurabh; Shevat, Amir (29 August 2018). Designing Web APIs: Building APIs That Developers Love. O'Reilly Media. ISBN 9781492026877. Retrieved 19 February 2020.
+External links
+
+Wikimedia Commons has media related to Hello World.
+
+The Wikibook Computer Programming has a page on the topic of: Hello world
+The Hello World Collection
+"Hello world/Text". Rosetta Code. 23 May 2024.
+"GitHub – leachim6/hello-world: Hello world in every computer language. Thanks to everyone who contributes to this, make sure to see CONTRIBUTING.md for contribution instructions!". GitHub. 30 October 2021.
+"Unsung Heroes of IT: Part One: Brian Kernighan". TheUnsungHeroesOfIT.com. Archived from the original on 26 March 2016. Retrieved 23 August 2014.
+vte
+Standard test items
+PangramReference implementationSanity checkStandard test image
+Artificial intelligence	
+Chinese roomTuring test
+Television (test card)	
+SMPTE color barsEBU colour barsIndian-head test patternEIA 1956 resolution chartBBC Test Card A, B, C, D, E, F, G, H, J, W, XETP-1Philips circle pattern (PM 5538, PM 5540, PM 5544, PM 5644)Snell & Wilcox SW2/SW4Telefunken FuBKTVE test cardUEIT
+Computer languages	
+"Hello, World!" programQuineTrabb Pardo–Knuth algorithmMan or boy testJust another Perl hacker
+Data compression	
+Calgary corpusCanterbury corpusSilesia corpusenwik8, enwik9
+3D computer graphics	
+Cornell boxStanford bunnyStanford dragonUtah teapotList
+Machine learning	
+ImageNetMNIST databaseList
+Typography (filler text)	
+Etaoin shrdluHamburgevonsLorem ipsumThe quick brown fox jumps over the lazy dog
+Other	
+3DBenchyAcid 123"Bad Apple!!"EICAR test filefunctions for optimizationGTUBEHarvard sentencesLenna"The North Wind and the Sun""Tom's Diner"SMPTE universal leaderEURion constellationShakedownWebdriver Torso1951 USAF resolution test chart
+Categories: Test items in computer languagesComputer programming folklore
+This page was last edited on 12 May 2025, at 18:45 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
+
+"Hello, World!" program
+
+69 languages
+Add topic

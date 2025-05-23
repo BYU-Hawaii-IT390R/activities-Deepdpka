@@ -1,0 +1,16 @@
+# 🕵️ IT 390R - Log Parsing Lab
+
+This project analyzes a honeypot log to identify failed login attempts, successful SSH credentials, and common shell commands used by attackers.
+
+## ✅ Tasks Completed
+
+### 1. 🔐 Failed Login Attempts
+Shows which IP addresses attempted brute-force SSH logins.
+
+Command:
+```bash
+python analyze_log.py cowrie-tiny.log --task failed-logins --min-count 1
+
+## Extra Crdit
+Regex for top command parsing was assisted by ChatGPT. 
+python analyze_log.py cowrie-tiny.log --task top-commands

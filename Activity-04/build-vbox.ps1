@@ -9,4 +9,5 @@
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" storagectl "AutomatedWin10" --name "IDE Controller" --add ide
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" storageattach "AutomatedWin10" --storagectl "IDE Controller" --port 0 --device 0 --type dvddrive --medium "C:\ISO Folder\en-us_windows_10_consumer_editions_version_22h2_x64_dvd_8da72ab3.iso"
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" storageattach "AutomatedWin10" --storagectl "IDE Controller" --port 1 --device 0 --type dvddrive --medium "C:\ISO Folder\answer.iso"
+& "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyvm "AutomatedWin10" --nic1 nat
 & "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm "AutomatedWin10"
